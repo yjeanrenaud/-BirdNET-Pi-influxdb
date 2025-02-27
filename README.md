@@ -23,7 +23,7 @@ Fortuntely, BirdNET-Pi supports [apprise](https://github.com/caronc/apprise/), w
   - Under *Tools*/*Settings*, you enter an **Apprise Notifications Configuration:** e.g. `mqtt://username:password@MQTT-BROKER-IP:1883/birdnet/bird`.
   - you need to enter a **Notification Title:**, e.g. `New BirdNET-Pi Detection` (BirdNET-Pi insists on a notification title, as apprise asks for it, but it does not really matter for now. It is helpful if you use other apprise hannels like signal or threema besides mqtt for BirdNET-Pi. You may leave it to default)
   - Enter your **Notification Body:**, e.g. `$flickrimage A $comname ($sciname) was just detected with a confidence of $confidence. VALUES: comname=$comname,sciname=$sciname,confidence=$confidence,date=$date,time=$time,week=$week`. The important part is `comname=$comname,sciname=$sciname,confidence=$confidence,date=$date,time=$time,week=$week` beacuse all the rest gets ignored by the parser middleware we deployed. I left the default message so it is nicer to read in a messenger like Threema:
-![grafik](https://github.com/user-attachments/assets/d632d115-1338-4a5d-ba8c-732e97d0567d)
+![grafik](https://github.com/user-attachments/assets/7b115d6f-6533-4ab6-a773-871409f24f86)
 
 ## todo
 - secure the code
